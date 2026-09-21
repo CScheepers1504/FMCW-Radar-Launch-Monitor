@@ -1,0 +1,26 @@
+# Captures and derived outputs live on disk, not in git
+*.bin
+_quicklook/
+ql/
+*.npz
+*.png
+!docs/**/*.png
+
+# MATLAB
+*.asv
+*.mat
+*.fig
+*.mex*
+slprj/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
