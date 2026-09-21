@@ -3,7 +3,7 @@
 %  =========================================================================
 clear; clc; close %
 
-%% 1. CONFIGURATION & TUNABLE PARAMETERS (EDIT ON THE FLY)
+%% 1. CONFIGURATION & TUNABLE PARAMETERS
 % -------------------------------------------------------------------------
 % File Paths
 configFileName = 'C:\Users\Chris Scheepers\Desktop\results\2026-08-29_14-12-44_wideband_01\meta.json'; % Save your JSON configuration here
