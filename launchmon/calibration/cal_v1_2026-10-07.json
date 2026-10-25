@@ -1,0 +1,28 @@
+{
+  "created": "2026-10-07T15:18:17",
+  "survey": "C:\\Users\\Chris Scheepers\\OneDrive - University of Cape Town\\2026\\EEE4022S\\Code\\analysis\\calib\\survey_v1_2026-10-07.json",
+  "profile": "/home/mmwave/ssd/chris-launch-monitor/src/mmWave_DRV/config/awr1843_wideband_lowfs.json",
+  "az_sign": -1,
+  "n_takes": 8,
+  "tx_order_reference": "2026-10-07_12-57-12_ref_02",
+  "rx_phase_deg": [
+    3.447881169599227e-33,
+    12.182847293296625,
+    28.54654135747607,
+    53.99312191991607
+  ],
+  "rx_scale": 1.1900000000000004,
+  "az_loo_rms_deg": 2.3323460234075206,
+  "az_pass": false,
+  "order_name": "rotated two chirps",
+  "tx_order_matlab": [
+    2,
+    3,
+    1
+  ],
+  "el_scale_a": -1.220000000000038,
+  "delta_deg": -12.704344643228788,
+  "d13_deg": 55.272181657815466,
+  "el_loo_rms_deg": 1.648858256203653,
+  "el_pass": true
+}

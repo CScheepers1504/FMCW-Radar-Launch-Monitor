@@ -1,0 +1,15 @@
+{
+ "name": "4 Oct 2026 outdoor net",
+ "radar_height_m": 0.52,
+ "tilt_deg": 1.0,
+ "yaw_deg": 0.0,
+ "tee_xy_m": [1.50, 0.0],
+ "net_x_m": 6.00,
+ "calibration": "../calibration/cal_v1_2026-10-07.json",
+ "el_valid_span_deg": [-0.7, 10.8],
+ "angle_correction_deg": {"az": 0.0, "el": 0.0,
+  "source": "none: no reference reflector in the shot captures, and cal_v1 (7 Oct) does not survive a power cycle. Angles are NOT usable; report range-only speed."},
+ "angle_systematic_deg": 1.5,
+ "ball_centre_height_m": {"golf": 0.060},
+ "notes": "Survey from the ground: array centre 0.52 m, boresight 1 deg up, yaw 0, tee 1.50 m on boresight, net 6.00 m (4.50 m from ball). Tee 3.9 cm + ball radius 2.1 cm. Shots 1, 4, 13, 15 have no video (corrected 21 Oct from 1, 4, 7, 15: the phone clock is the radar clock minus 2 h 53 min 00 s to within 3 s for all 11 clips, which puts IMG_0618 at shot 7; see Code/analysis/video_net13/matching_04oct.csv)."
+}

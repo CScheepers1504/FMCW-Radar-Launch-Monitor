@@ -1,0 +1,15 @@
+{
+ "name": "15 Sep 2026 indoor net",
+ "radar_height_m": 0.65,
+ "tilt_deg": 5.0,
+ "yaw_deg": 0.0,
+ "tee_xy_m": [1.50, 0.0],
+ "net_x_m": 6.25,
+ "calibration": "../calibration/cal_v1_2026-10-07.json",
+ "el_valid_span_deg": [-0.7, 10.8],
+ "angle_correction_deg": {"az": 0.0, "el": 0.0,
+  "source": "none: no reference reflector in the shot captures, and cal_v1 (7 Oct) does not survive a power cycle. Angles are NOT usable; report range-only speed."},
+ "angle_systematic_deg": 1.5,
+ "ball_centre_height_m": {"golf": 0.061, "football": 0.11, "rugby": 0.25},
+ "notes": "Survey from the floor: radar 0.65 m above the floor, 5 deg up, yaw 0, launch point 1.50 m on boresight, ball to net 4.75 m. Golf centre = 40 mm tee + 21.35 mm radius (operator, 15 Oct; every golf shot on a 40 mm tee). Rugby centre on its tee ASSUMED. Video net-impact heights: 7-iron ~1.72 m, driver ~1.44 m, tennis ~2.55 m."
+}

@@ -1,0 +1,15 @@
+{
+ "name": "13 Oct 2026 outdoor net",
+ "radar_height_m": 0.52,
+ "tilt_deg": -1.0,
+ "yaw_deg": 0.0,
+ "tee_xy_m": [1.50, 0.0],
+ "net_x_m": 6.00,
+ "calibration": "../calibration/cal_v1_2026-10-07.json",
+ "el_valid_span_deg": [-0.7, 10.8],
+ "angle_correction_deg": {"az": 1.33, "el": 2.09,
+  "source": "mean of pilot (1.31,-0.46,0.305) and check (2.00,-0.60,0.305) reflector errors under cal_v1, measured - surveyed"},
+ "angle_systematic_deg": 1.5,
+ "ball_centre_height_m": {"golf": 0.056, "football": 0.11, "rugby": 0.25},
+ "notes": "Survey from the floor. Driver tee 3.5 cm + ball radius 2.1 cm. Rugby centre on 13 cm tee ASSUMED, not surveyed. Pilot reflector absent from the ball takes, so Tx order comes from the ball (Tx1-Tx3 test)."
+}
